@@ -1,7 +1,6 @@
 import numpy as np
-from numpy import dtype
 
-from inflation import InflationProblem, InflationSDP
+from inflation.inflation import InflationProblem, InflationSDP
 
 # Although C has 4 settings, we only refer to one in the objective, so we'll lie WLOG in the input.
 tripartite_Bell = InflationProblem(
